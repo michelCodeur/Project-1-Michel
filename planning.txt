@@ -1,0 +1,13 @@
+Flash cards are data displayed on cards.
+
+1- Create constants 
+
+2-  Define the functions
+
+3- Create an index.html file with boileplate.
+
+4- Create a document.json file to store the data. 
+
+5- Create a style.css file and update it as needed. It's linked to the index.html file
+
+6- Create a script.js file to hold the pseudocode. It's linked to the index.html file
