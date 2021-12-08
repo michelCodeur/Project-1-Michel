@@ -4,18 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>FlashCardsGame</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="data.js"></script>
+    <script type="text/javascript" src="script.js" defer></script>
+    
 </head>
-<script src="script.js"></script>
-<script src="style.css"></script>
 <body>
-    <div id="FlashCards">U.S STATES CAPITALS</div>
+    <div id="flashcards">U.S STATES CAPITALS</div>
     <div id="front"></div>
-    <div id="list1"></div>
-    <div id="list2"></div>
-    <div id="list3"></div>
+    <ul id="list">
+
+   <li id="list1"></li>
+   <li id="list2"></li>
+   <li id="list3"></li>  
+
+    </ul>
     <div id="back"></div>
-    <button>PREVIOUS</button>
-    <BUtton>NEXT</BUtton>
+
+    <div id="btncontainer">
+    <button id="previous">PREVIOUS</button>
+    <BUtton id="next">NEXT</BUtton>
+    </div>
 </body>
 </html>
