@@ -9,12 +9,15 @@ A browser-based Flash cards Game coded in JavaScript, HTML, and CSS. It’s desi
 
 ### User Stories
 
-As a user, I want to see the question on the front of the card followed by a choice of answers. After I flip the card, the correct answer is revealed.
+As user, I will click on the link leading to the app console and I can start playing from there. I will end the game by closing the page.
+As a user, I want to see the question on the front of the card followed by 3 choices of answers. After I flip the card, the correct answer is revealed.
 
 #### MVP
 
-The user can track each answer by marking down, and his score as well.
+As a user, I want a browser-based interface so that I can play the game.
+As a user, I want to be able to navigate between cards; previous and next buttons at the bottom of each card.
 
 ##### Stretch Goals
 
+The user can track each answer by marking it down, and his score as well.
 This kind of game is very popular and user can enjoy it while learning.
