@@ -103,7 +103,7 @@ data = [
 		choice1: 'DES MOINE',
 		choice2: 'CEDAR RAPIDS',
 		choice3: 'IOWA CITY',
-		answer: 'DES MOINE',
+		answer: 'DES MOINES',
 	},
 	{
 		question: 'WHAT IS THE CAPITAL OF KANSAS?',
