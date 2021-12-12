@@ -1,6 +1,6 @@
 //The panel is the main window of the flash card display
 const panel = document.querySelector('#panel');
-
+const resetBtn = document.querySelector('#resetBtn');
 //This is the main navigation button
 const clickHereForRandQuestionBtn = document.querySelector('#randomQuestion');
 
@@ -12,7 +12,6 @@ const choice3 = document.querySelector('#choice3');
 const answer = document.querySelector('#answer');
 
 //The are the variables used through the functions
-let currentQuestion = 0;
 let currentAnswer = 0;
 let isAnswerShown = false;
 const arrQuestions = new Array();
@@ -36,18 +35,34 @@ function renderQuestion() {
 }
 
 //This toggle the main navigation button
-clickHereForRandQuestionBtn.addEventListener('click', function () {
+clickHereForRandQuestionBtn.addEventListener('click', showRandonQuestion);
+
+// This function shows randam question
+function showRandonQuestion() {
 	if (isAnswerShown) {
 		renderQuestion();
 	} else {
 		revealAnswer();
 	}
 	isAnswerShown = !isAnswerShown;
-});
+}
 renderQuestion();
 
 //This function reveal the correct answer
 function revealAnswer() {
 	answer.classList.toggle('hidden');
 	clickHereForRandQuestionBtn.innerText = 'CLICK HERE FOR RANDOM QUESTION';
+}
+
+//This function controle the reset button.
+resetBtn.addEventListener('click', resetPanel);
+function resetPanel() {
+	question.innerText = ' ';
+	choice1.innerText = ' ';
+	choice2.innerText = ' ';
+	choice3.innerText = ' ';
+	answer.innerText = ' ';
+
+	isAnswerShown = false;
+	showRandonQuestion();
 }
