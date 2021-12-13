@@ -2,9 +2,6 @@
 
 Flash cards game
 A browser-based Flash cards Game coded in JavaScript, HTML, and CSS. It’s designed for learning purpose.
-~/assets/FlashCard1.png
-~/assets/FlashCard2.png
-~/assets/FlashCard3.png
 
 Technologies used:
 
